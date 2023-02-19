@@ -22,7 +22,7 @@ class InfoCard extends StatelessWidget {
           SizedBox(
             width: width * 1,
             child: GrockContainer(
-              height: 60,
+              height: 100,
               child: Padding(
                 padding: const EdgeInsets.only(left: 10.0),
                 child: Row(

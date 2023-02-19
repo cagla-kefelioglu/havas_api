@@ -24,6 +24,7 @@ dependencies:
   grock: ^0.0.4
   flutter_svg: ^1.0.3
   snapshot: ^0.2.5
+  carousel_slider: ^4.2.1
 
 dev_dependencies:
   flutter_test:

@@ -26,7 +26,7 @@ Future<List<Info>> GetAllInfo() async {
   var response = await http.get(Uri.parse(url));
   if (response.statusCode == 200) {
     var body = jsonDecode(response.body);
-    body = body["data"] as List;
+    body = body as List;
     // body.map((e) => print(e));
     List<Info> info = [];
     body.forEach(
